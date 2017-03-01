@@ -1,0 +1,51 @@
+html {
+    display: block;
+}
+
+html {
+ min-height:100%; 
+ -webkit-font-smoothing: antialiased; 	
+ 	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	opacity: 1; 
+	transition: opacity 0.5s;
+	margin: 0;
+}
+
+#background{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-size: cover;
+	background-image: url('background.jpg');
+}
+
+section{
+	width: 100%;
+	height: 100%;
+	background-color: gray;
+	opacity: 0.3;
+}
+
+.box{
+	position: relative;
+	background: rgba(0, 0, 0, .2);
+	border-radius:20px;
+}
+
+article{
+	top: 7%;
+	left: 3%;
+	width: 94%;
+	height: 86%;
+	opacity: 0.8;
+}
+
+#darken{
+		background: rgba(0,0,0,1)
+}
