@@ -37,17 +37,17 @@ section{
 }
 
 article{
-	top: 7%;
+	top: 6%;
 	left: 3%;
 	width: 94%;
-	height: 86%;
+	height: 88%;
 }
 
 #littlebox{
 	display: inline-block;
 	width:  200px;
-	height: 250px;
-	margin: 2.4%;
+	height: 220px;
+	margin: 2.9%;
 	background: rgba(0,0,0,.4);
 }
 
@@ -84,10 +84,10 @@ article{
 
 img{
 	position: relative;
-	top: 15px;
-	left: 10px;
-	height: 180px;
-	width: 180px;
+	top: 17px;
+	left: 25px;
+	height: 150px;
+	width: 150px;
 }
 
 img:hover{
