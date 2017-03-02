@@ -45,9 +45,9 @@ article{
 
 #littlebox{
 	display: inline-block;
-	width:  200px;
-	height: 220px;
-	margin: 2.9%;
+	width:  15%;
+	height: 35%;
+	margin: 2.5% 2.5% 2.5% calc(2.5% - 4px);
 	background: rgba(0,0,0,.4);
 }
 
@@ -85,9 +85,8 @@ article{
 img{
 	position: relative;
 	top: 17px;
-	left: 25px;
-	height: 150px;
-	width: 150px;
+	left: 15%;	
+	width: 70%;
 }
 
 img:hover{
