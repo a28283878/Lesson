@@ -1,10 +1,5 @@
-html { 	
+html,body { 	
  	width: 100%;
-	height: 100%;
-}
-
-body {
-	width: 100%;
 	height: 100%;
 	margin: 0;
 }
@@ -13,19 +8,13 @@ body {
 	width: 100%;
 	height: 100%;
 	background-size: cover;
+	overflow: hidden;
 	background-image: url('img/background.jpg');
 }
 
 section{
 	width: 100%;
 	height: 100%;
-}
-
-.box{
-	position: relative;
-	display: inline-block;
-	background: rgba(0, 0, 0, .2);
-	border-radius: 20px;
 }
 
 article{
@@ -35,30 +24,34 @@ article{
 	height: 88%;
 }
 
+.box{
+	position: relative;
+	display: inline-block;
+	border-radius: 20px;
+	background: rgba(0,0,0,.3);
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.up-border-radius{
+	border-radius: 20px 20px 0 0;
+	background: rgba(0,0,0,.3);
+}
+
 #littlebox{
 	display: inline-block;
 	width:  14.95%;
 	height: 35%;
 	margin: 2.5% 2.5% 2.5% calc(2.5% - 4px);
-	/*margin: 0 0 0 -5px;*/
 	background: rgba(0,0,0,.2);
 }
 
-img{
-	position: relative;
-	top: 8%;
-	left: 15%;	
-	width: 70%;
-}
-
-#darken{
-	background: rgba(0,0,0,.3);
-}
-
 .box-h1 {
-	font-size:40px;
+	font-size: 40px;
 	color: white;
-	font-family:'Helvetica Neue',Helvetica,arial,sans-serif
+	font-family:'Helvetica Neue','Helvetica';
 }
 
 .box-h1 *{
@@ -80,10 +73,6 @@ img{
 	padding-bottom: 7px;
 }
 
-.up-border-radius{
-	border-radius:20px 20px 0 0;
-}
-
 .box-h2 {
 	position: absolute;
 	width: 100%;
@@ -97,8 +86,11 @@ img{
 	background: rgba(0, 0, 0, .6);
 }
 
-.bold{
-	font-weight: bold;
+img{
+	position: relative;
+	top: 8%;
+	left: 15%;	
+	width: 70%;
 }
 
 img:hover{
