@@ -1,0 +1,32 @@
+.red{
+	color: red;
+}
+
+#lightblue{
+	color: blue;
+	background: lightgreen;
+	width: 200px;
+	height: 300px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.box{
+	border-radius: 20px;
+}
+
+#mybox{
+	width: 200px;
+	height: 300px;
+	background-color: rgba(0,0,0,0.5);
+	opacity: 0.5;
+}
+
+#bottom-box{
+	position: relative; 
+	width:100%;
+	height: 10%;
+	top: 100px;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 0 0 20px 20px;
+}
