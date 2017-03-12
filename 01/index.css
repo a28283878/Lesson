@@ -1,0 +1,52 @@
+html,body { 	
+ 	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+#background{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	overflow: hidden;
+	background-image: url('img/background.jpg');
+}
+
+section{
+	width: 100%;
+	height: 100%;
+}
+
+article{
+	top: 6%;
+	left: 3%;
+	width: 94%;
+	height: 88%;
+}
+
+.box{
+	position: relative;
+	display: inline-block;
+	border-radius: 20px;
+	background: rgba(0,0,0,.3);
+}
+
+.up-border-radius{
+	height: 60px;
+	border-radius: 20px 20px 0 0;
+	background: rgba(0,0,0,.4);
+}
+
+#littlebox{
+	display: inline-block;
+	width:  14.95%;
+	height: 35%;
+	margin: 2.5% 2.5% 2.5% calc(2.5% - 4px);
+	background: rgba(0,0,0,.2);
+}
+
+.box-h1 {
+	font-size: 40px;
+	color: white;
+	font-family:'Helvetica Neue','Helvetica';
+}
